@@ -5,7 +5,8 @@ const noBtn = document.querySelector('.no-btn');
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'I Love You Too :)';
+    // Redirect to Google when Yes button is clicked
+    window.location.href = 'https://vipullovesaditi.carrd.co/';
 });
 noBtn.addEventListener('mouseover', () => {
     const i = Math.floor(Math.random() * (wrapperRect.width - noBtnRect.width)) + 1;
